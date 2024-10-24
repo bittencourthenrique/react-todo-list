@@ -3,8 +3,20 @@
   box-sizing: border-box;
 }
 
+.header {
+  font-size: 24px; 
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.subheader {
+  font-size: 20px; 
+  font-weight: normal;
+  margin-top: 8px;
+}
+
 body {
-  background: #333;
+  background: #05052b;
   color: hsl(200, 100%, 90%);
   max-width: 400px;
   padding: 1rem;
@@ -14,21 +26,22 @@ body {
 .new-item-form {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 16px;
 }
 
 .form-row {
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 4px;
 }
 
 .btn {
-  background: hsl(200, 100%, 50%, 0.1);
+  background: #00aaff1a;
   border: 1px solid hsl(200, 100%, 50%);
   color: hsl(200, 100%, 50%);
-  padding: 0.25em 0.5em;
-  border-radius: 0.25em;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
   cursor: pointer;
   outline: none;
 }
@@ -51,15 +64,17 @@ body {
 
 .new-item-form input {
   outline: none;
-  border: 1px solid hsl(200, 100%, 40%);
-  background: hsl(200, 100%, 30%);
-  border-radius: 0.25em;
-  padding: 0.25em 0.5em;
-  color: hsl(200, 100%, 90%);
+  background: hsl(0, 0%, 100%);
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 8px;
+  font-size: 16px;
+  color: #05052b;
 }
 
 .new-item-form input:focus {
-  border: 1px solid hsl(200, 100%, 70%);
+  border: 2px solid #63639577;
 }
 
 .header {
